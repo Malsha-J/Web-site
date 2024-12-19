@@ -1,0 +1,43 @@
+.hey {
+    margin-left: 250px;
+    margin-top: 250px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.75in;
+    color: beige;
+}
+
+h2{
+    margin-left: 250px;
+    margin-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.5in;
+    color: beige;
+}
+
+h3{
+    color: bisque;
+    font-size: x-large;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+body {
+    background:linear-gradient(rgb(1, 37, 55),rgb(59, 71, 73));
+}
+
+rect {
+    fill: bisque;
+}
+
+text {
+    fill: black;
+    text-anchor: middle;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+#divertimentoSVG g:hover rect{
+    fill:darkcyan;
+}
+

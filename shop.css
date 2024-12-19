@@ -1,0 +1,204 @@
+body{
+    background-color: rgba(116, 204, 219, 0.9);
+}
+.shoptop{
+    background-color: rgb(0, 132, 255,0.2);
+    text-align: center;
+    padding: 15px;
+    font-size: medium;
+    margin-top: 2px;
+    color: rgba(0, 47, 92, 0.9);
+    font-family: "Alex Brush", sans-serif;
+    align-items: center;
+}
+.Cart img{
+    margin-top: 25px;
+    width: 25px;
+    right: 0;
+    position: fixed;
+    z-index: 1000;
+    cursor: pointer;
+    background-color: rgba(82, 125, 165, 0.9);
+    border-radius: 1px;
+}
+.addToCart{
+    float: right;
+    margin-top: -50px;
+    display: none;
+    padding: 15px;
+    width: 500px;
+    border-radius: 3px;
+    background-color: rgb(110, 153, 194);
+    right: 0;
+    top: 183px;
+    z-index: 1000;
+    font-weight: bold;
+    font-size: large;
+    size: 1000px;
+    position: fixed;
+    overflow-y: auto;
+    max-height: 600px;
+}
+.contents{
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 300px;
+}
+.contents img{
+    width: 130px;
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-top: 0px;
+    border-radius: 3px;
+    background-color: white;
+    padding: 2px;
+}
+.cartItem{
+    display: flex;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 0px;
+    margin-bottom: 5px;
+    margin-right: 8px;
+    background-color: white;
+
+}
+.itemDetails{
+    margin-top: 20px;
+    padding-left: 2%;
+    font-size: medium;
+    margin-left: 0%;
+    margin-right: 0px;
+    
+}
+.itemPrice{
+    margin-top: 8px;
+}
+.quantity{
+    margin-top: 7px;
+}
+.quantity input{
+    width: 25px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 3px;
+}
+.cartHead{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    margin: 10px;
+}
+.itemImg img{
+    width: 150px;
+    margin: 10px;
+}
+
+.details{
+    margin: 20px;
+}
+.totalPrice{
+    text-align: right;
+    font-weight: bold;
+}
+.buttons{
+    display: inline;
+}
+.buttons{
+    margin-left: 52%;
+}
+.removeBtn{
+    width: 25px;
+    font-weight: bold;
+    float: left;
+    margin-top: -90px;
+    margin-left: 290px;
+    border-radius: 1px;
+    border: 1px solid rgb(115, 157, 236);
+    background-color: rgb(115, 157, 236);
+}
+.removeBtn:hover{
+    transform: scale(1.1);
+
+}
+.buttons{
+    padding: 10px;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.buyBtn button:hover{
+    background-color: #131449;
+    color: #ffffff;
+}
+.store{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 70px;
+    margin-left: 50px;
+    
+    
+}
+.item{
+    width: 300px;
+    border: solid;
+    margin: 20px;
+    border: 5px solid;
+    border-radius: 5px;    
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    border-color: rgb(230, 242, 255);
+    
+}
+.item:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.shop{
+    margin-top: 50px;
+}
+.row{
+    font-size: small;
+    font-family:"Monstserrat",sans-serif;
+    margin-top: 50px;
+    display: flex;
+}
+img{
+    width: 300px;
+    padding: 5px;
+    margin: auto;
+}
+.itemName{
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    margin: 0px;
+}
+.price{
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px;
+}
+button{
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(77, 154, 241);
+    
+}
+button:hover{
+    transform: scale(1.1);
+}
+.button img{
+    width: 1px;
+    float: left;
+}
+.item img{
+    width: 200px;
+    align-items: center;
+    margin: auto;
+}

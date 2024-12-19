@@ -1,0 +1,23 @@
+body {
+    background:linear-gradient(rgb(1, 37, 55),rgb(59, 71, 73));
+}
+rect{
+    fill:dimgrey;  
+}
+
+line{
+    stroke: black;
+    stroke-width: 2px;
+}
+
+text{
+    fill: black;
+    text-anchor: middle;
+    font-weight: bold;
+    font-size: 19px;
+    text-align: center;
+}
+
+#divertimentoSVG g:hover rect{
+    fill:darkslategrey;
+}

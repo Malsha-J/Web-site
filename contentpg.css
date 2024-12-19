@@ -1,0 +1,112 @@
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(158, 228, 252);
+        
+    }
+    h1{
+        font-family: 'Times New Roman', Times, serif;
+        color: #065275;
+        text-decoration: underline;
+        text-align: center;
+        margin: 10px 0;
+        padding: 0;
+
+    }
+
+    #blog {
+        padding: 20px;
+    }
+
+    .blog-heading {
+        text-align: center;
+        margin-top: 35px;
+        
+    }
+
+    .conainer-1 {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .blog-box {
+        width: 30%;
+        margin-bottom: 20px;
+        margin-top: 65px;
+        background-image:url(./blue-and-green.jpg) ;
+        background-color: #58abde;
+        border: 1px solid #58abde;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .blog-img img {
+        width: 100%;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .blog_imaging{
+        height: 265px;
+        width: 736px;
+    }
+
+    .blog-text {
+        padding: 20px;
+    }
+
+    .blog-text span {
+        font-size: 12px;
+        color: #777;
+    }
+
+    .blog-text a {
+        color: #333;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .blog-text p {
+        margin-top: 10px;
+        line-height: 1.6;
+    }
+    .blog-text a:hover{
+    color: rgb(24, 6, 180);
+    transition: all ease 0.3s;
+    }
+    
+    @media screen and (max-width: 768px) {
+        .blog-box {
+            width: 48%;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .blog-box {
+            width: 100%;
+        }
+    }
+    h2{
+        text-align: center;
+        color: #0d5064;
+        font-size: 28px;
+        margin-top: 50px;
+        
+
+    }
+    p{
+        margin-top: 20px;
+        margin-left: 20px; 
+    }
+    .GIF {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%; /* Adjust width as needed */
+        height: 100%; /* Ensure aspect ratio is maintained */
+        margin-top: 75px;
+        margin-bottom: 75px;
+    }
+    

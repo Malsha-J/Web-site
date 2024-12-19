@@ -1,0 +1,76 @@
+.headContent{
+    margin-top: 8px;
+    background-color: rgba(116, 204, 219, 0.9);;
+    padding-top: 15px;
+    padding: 10px;
+    font-family:"Monstserrat",sans-serif;
+
+}
+.topic{
+    margin-top: 35px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.intro{
+    text-align: justify;
+    font-size: small;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.imgs{
+    display: flex;
+
+}
+.imgs img{
+    width: 215px;
+    height: 400px;
+    border: 5px solid rgba(116, 204, 219, 0.9);
+    transition: transform 0.3s ease;
+}
+.imgs img:hover{
+    transform: scale(1.2);
+}
+.subtopic{
+    text-align: center;
+    font-size: smaller;
+    padding: 3px;
+}
+.sub1{
+    display: flex;
+    background-color:rgba(82, 142, 153, 0.9);
+    font-family:"Monstserrat",sans-serif;
+}
+.sub1 img{
+    width: 250px;
+}
+.sub2{
+    display: flex;
+    background-color:rgba(148, 216, 228, 0.9);
+    font-family:"Monstserrat",sans-serif;
+}
+.sub2 img{
+    width: 250px;
+}
+.content1,.content2,.content3,.content4,.content5{
+    text-align: center;
+    margin-top: 25px;
+}
+.subtopic1,.subtopic2,.subtopic3,.subtopic4,.subtopic5{
+    font-weight: bold;
+    font-size: medium;
+}
+.para1,.para2,.para3,.para4,.para5{
+    font-size: small;
+    text-align: justify;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+.toTop{
+    background-color:rgba(82, 142, 153, 0.9);
+    text-align: center;
+    font-size: small;
+    font-weight: bolder;
+    padding: 10px;
+}

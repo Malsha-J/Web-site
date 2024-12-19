@@ -1,0 +1,110 @@
+body{
+    margin: 0;  
+}
+footer{
+    position: relative;
+    bottom:0px;
+    width: 100%;
+    background: rgb(204,249,255);
+    color: rgb(2, 2, 2);
+    font-family: 'Poppins',sans-serif;
+    right: 0;
+}
+.footer-content{
+    display:flex;
+    margin-top: 0px;
+}
+.footer-content .box{
+    flex-basis: 50%; /*set flex to 50%*/
+    padding: 10px 20px;
+    color: rgb(1, 2, 128);
+}
+h2{
+    font-size:1.125rem; /*Set font Size*/
+    font-weight: 600; /*Set font weight*/
+    text-transform: uppercase;
+}
+.content{
+    margin: 20px 0 0 0;
+    position: relative;
+}
+.content p{
+    text-align: justify;
+}
+.content .text{
+    font-size: 1.0625rem;
+    font-weight: 500;
+    padding-left: 10px;
+}
+.content .phone{
+    margin: 30px 0;
+}
+form .text a{
+    font-size: 1.0625rem;
+    margin-bottom: 2px;
+    color: rgb(1, 2, 128);
+}
+form .msg{
+    margin-top: 10px;
+}
+form input, form textarea{
+    width:100%;
+    font-size:1.0625rem;
+    background: #ffffff;
+    padding-left: 10px;
+    border:1px solid #ffffff;
+}
+form input:focus,
+form textarea:focus{
+    outline-color: #3498db;
+}
+form input {
+    height:35px;
+}
+form .btn{
+    margin-top: 10px;
+}
+form .btn button{
+    height:40px;
+    width:75px;
+    float:right;
+    border: none;
+    outline: none;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 300ms;
+}
+form .btn button:hover{
+    background: rgb(21, 5, 239);
+    color: white;
+    border-radius: 10px;
+}
+
+textarea{
+    color: rgb(0, 0, 0);
+    resize: none;
+  }
+.center{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-weight: bold;
+  }
+.under center{
+    padding: 5px;
+    font-size: 0.9375rem;
+    background: #151515;
+  }
+.under .center span{
+    color: #000000;
+  }
+.under .center a{
+    color: rgb(64, 0, 255);
+    text-decoration: none;
+  }
+.under .center a:hover{
+    text-decoration: underline;
+  }

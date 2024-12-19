@@ -1,0 +1,74 @@
+
+  .editorbody {
+    font-family: Arial, sans-serif;
+    background-image: url(./Editor.png);
+    background-color: #f7f7f7;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:top;
+    margin: 0;
+    padding: 0;
+  }
+  .content{
+    margin-top: 5%;
+    max-width: 600px;
+    
+  }
+  .intro{
+    font-size: 70px;
+    color: #fff;
+    margin-left: 5%;
+
+  }
+  .content p{
+    margin: 10px 0 30px;
+    color: #fff;
+    margin-left: 5%;
+
+  }
+  
+  .button_box {
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-top: 60px;
+  }
+  
+  .button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 40px;
+    background: linear-gradient(45deg,#16d25b,#b5e873);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #460ade;
+  }
+  
+  h6 {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 50px;
+    text-align: left;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 32px;
+    }
+    h4 {
+      font-size: 16px;
+    }
+    .button {
+      padding: 8px 16px;
+    }
+    h6 {
+      font-size: 12px;
+    }
+  }
+  

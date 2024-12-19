@@ -1,0 +1,82 @@
+body {
+    background-image: url(./try2.jpg);
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust the alpha value (0.5 in this case) to increase transparency */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 100px;
+    padding: 0;
+    
+}
+
+
+.container_up{
+border-radius: 15px;
+width: 45%;
+margin: 50px auto 0;
+margin-bottom: 15px;
+padding: 20px;
+display: none; /* Initially hide all containers */
+background: linear-gradient( rgba(0, 128, 191),rgb(204,249,255));
+background-color: rgba(255, 255, 255, 0.9); /* Light background color with transparency */
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Soft shadow effect */
+transition: all 0.3s ease; /* Smooth transition effect */
+}
+
+
+#personalDetailsContainer,#jobDetailsContainer, #healthDetailsContainer,#allDetailsContainer{
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;/*font style*/
+}
+
+#allDetailsContainer {
+    background-color: rgb(73, 143, 249);
+    font-family: Arial, sans-serif;
+}
+
+.heading{
+    text-align: center;
+}
+
+h2,p{
+    text-align: center;
+}
+#startButton  {
+        font-size: 25px;
+}
+#nextButton{
+    font-size: 15px;
+    background: rgba(255, 255, 255, 0.8); /* Lighten the background on hover */
+    color: black; /* Change text color on hover if needed */
+
+}
+
+#startButton,#nextButton{
+        font-weight: 350;
+        color: white;
+        padding: 15px 25px ;
+        margin-top: 20px;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        background: rgb(75, 118, 227);
+        cursor: pointer;
+        display: block;
+        margin: 0 auto; /* Center the buttons horizontally */
+
+}
+/* Increase specificity to override default styles */
+progress {
+    width: 50%;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Apply background color and !important to ensure it takes precedence */
+progress::-webkit-progress-bar {
+    background-color: rgb(53, 199, 207) !important;
+    border-radius: 60px;
+}
+

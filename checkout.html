@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+     <div class="topic">Almost There...</div> 
+     <br><br><br><br>
+     <div class="checkoutLayout">
+      <div>
+         <div class="forms">
+             <form id="form" action="payment.html" method="post">
+                 <div class="payment">
+                     <div>
+                        <!-- ask payment details from the user -->
+                     <div class="paymentDetails">Payment Details</div><br>
+                     <label for="cardNo">Card Number </label><br>
+                     <input type="number" id="cardNo" required><br>
+                     <label for="cardholder">Cardholder Name </label><br>
+                     <input type="text" id="cardholder" required><br>
+                     <label for="expireDate">Expiery Date</label><br>
+                     <input type="date" id="expireDate" min="2024-04-03" required><br>
+                     <label for="ccv">CCV</label><br>
+                     <input type="number" id="ccv" required>
+                     <div class="button"><button type="reset">Reset</button></div>
+                     </div> 
+                     
+                  </div> 
+             
+                  <div class="address">    
+                     <div>
+                        <!-- ask address details -->
+                     <div class="addressDetails">Billing Details</div><br>
+                     <label for="line1">Address Line1 </label><br>
+                     <input type="text" id="line1" required><br>
+                     <label for="line2">Address Line2 </label><br>
+                     <input type="text" id="line2"><br>
+                     <label for="line3">Address Line3</label><br>
+                     <input type="text" id="line3"><br>
+                     <label for="city">City/Town</label><br>
+                     <input type="text" id="city" required><br>
+                     <label for="postalCode">Postal Code/Zip Code</label><br>
+                     <input type="text" id="postalCode" required>    
+                     <div class="button"><button type="reset">Reset</button></div>
+                     </div>            
+                  </div> 
+             
+                  <div class="personal">
+                     <div>
+                        <!-- ask personal details -->
+                     <div class="contactDetails">Contact Details</div><br>
+                     <label for="fistName">First Name </label><br>
+                     <input type="text" id="fistName" required><br>
+                     <label for="lastName">Last Name </label><br>
+                     <input type="text" id="lastName" required><br>
+                     <label for="phoneNumber">Phone Number</label><br>
+                     <input type="number" id="phoneNumber"><br>
+                     <label for="email">Email</label><br>
+                     <input type="email" id="email" required>
+                     <div class="button"><button type="reset">Reset</button></div>
+                     </div>
+                  </div> 
+                  <button type="submit" class="submit">Pay</button>
+             </form>
+         </div>
+      </div>
+      <!-- direct to the top of teh web page -->
+    <a href="#">Back to top</a>
+ 
+     <br><br> 
+<script src="checkout.js"></script>  
+</body>
+</html>

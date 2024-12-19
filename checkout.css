@@ -1,0 +1,145 @@
+body{
+    background-color:  rgba(116, 204, 219);
+    font-family:"Monstserrat",sans-serif;
+}
+.topic{
+    width: 500px;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 25px;
+    font-size: xx-large;
+    font-weight: bold; 
+    padding-left: 425px;
+    padding-right: 530px;
+    
+}
+
+.paymentDetails{
+    padding: 10px;
+    margin-top: -5px;
+    margin-left: -4px;
+    margin-right:-4px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    border-bottom: 4px solid rgba(116, 204, 219);
+}
+.payment{
+    background-color:  rgb(86, 183, 201);
+    width: 600px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 380px;
+    margin-top: 30px;
+    padding: 5px;
+    padding-bottom: 30px;
+}
+.payment label{
+    margin-top: 100px;
+    margin-left:25px ;
+    padding: 5px;
+    
+}
+.payment input{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    padding: 3px;
+    
+}
+.addressDetails{
+    padding: 10px;
+    margin-top: -5px;
+    margin-left: -4px;
+    margin-right:-4px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    border-bottom: 4px solid rgba(116, 204, 219);
+}
+.address{
+    background-color:  rgb(86, 183, 201);
+    border: none;
+    width: 600px;
+    border-radius: 5px;
+    margin-left: 380px;
+    margin-top: 30px;
+    padding: 5px;
+    padding-bottom: 30px;
+}
+.address label{
+    margin-top: 100px;
+    margin-left:25px ;
+    padding: 5px;
+    
+}
+.address input{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    padding: 3px; 
+}
+.contactDetails{
+    padding: 10px;
+    margin-top: -5px;
+    margin-left: -4px;
+    margin-right:-4px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    border-bottom: 4px solid rgba(116, 204, 219);
+}
+.personal{
+    background-color:  rgb(86, 183, 201);
+    border: none;
+    width: 600px;
+    border-radius: 5px;
+    margin-left: 380px;
+    margin-top: 30px;
+    padding: 5px;
+    padding-bottom: 30px;
+}
+.personal label{
+    margin-top: 100px;
+    margin-left:25px ;
+    padding: 5px;
+    
+}
+.personal input{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    padding: 3px;
+    
+}
+.button{
+    margin-top: 25px;
+    text-align: center;
+}
+button{
+    padding: 4px;
+}
+.clear{
+    margin-right: 30px;
+}
+.submit{
+    width: 55px;
+    margin-top: 20px;
+    margin-left: 900px;
+    padding: 5px;
+    background-color: green;
+    transition: transform 0.1s ease;
+    border: none;
+    font-weight: bold;
+}
+.submit:hover{
+    transform: scale(1.1);
+}
+a{
+    margin-left: 653px;
+    font-size: smaller;
+}
+
+
+

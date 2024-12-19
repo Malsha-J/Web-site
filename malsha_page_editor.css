@@ -1,0 +1,54 @@
+
+.myPic img{
+    width: 350px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+.editorPage{
+    background-color: rgba(116, 204, 219, 0.9);
+    display: flex;
+    font-family: "Monstserrat",sans-serif;
+}
+.details{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.name{
+    font-size: x-large;
+    font-weight: bolder;   
+}
+.role{
+    font-size: large;
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+.webpgs{
+    margin-top: -27px;
+    margin-left: 50px;
+    margin-right: 75px;
+    border: 1px;
+    padding: 10px;
+    background-color: rgba(171, 241, 253, 0.9);
+    border-radius: 5px;
+}
+.webpgs h3{
+    font-size: medium;
+    text-wrap: nowrap;
+    margin-left: 15px;
+}
+.para{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    margin-top: -15px;
+    margin-left: 15px;
+}
+.para a{
+    margin-top: 5px;
+    font-size: 12px;
+    font-style: italic;
+}

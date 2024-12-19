@@ -1,0 +1,62 @@
+body{
+    background-image: url(back.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.center{
+    padding-top: 170px;
+    padding-bottom: 300px;
+    margin-top: -10px;
+    margin-left: -30px;
+    margin-right: -10px;
+    left: 0;
+    right: 100px;
+    background-color: rgba(0, 217, 255, 0.9);
+    background-size: 1000px;
+
+}
+img{
+    width: 10%;
+    float: left;
+    margin-left: 0px;
+}
+
+.topic{
+    margin-top:10px;
+    color: rgb(25, 25, 100);
+    font-size: xx-large;
+    
+}
+.theme{
+    margin-left:500px ;
+    /* margin-top: 5px; */
+}
+.mission{
+    margin-left: 450px;
+    font-family: "Alex Brush", sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(37, 37, 116);
+    
+}
+.team{
+    margin-left: 400px;
+    margin-top: 10px;
+    float: bottom;
+}
+span{
+    padding: 10px;
+    background-color: rgb(187, 238, 245);
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+.loadingImg{
+    margin-left: 655px;
+    margin-top: 20px;
+}
+.loadingImg img{
+    width: 5%;
+}

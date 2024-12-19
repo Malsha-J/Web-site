@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEALTHFUL HAVEN | Feedback</title>
+    <link rel="icon" href="./healthful_haven.png" type="icon/title">
+    <link rel="stylesheet" href="feedback.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="navbar.css">
+    <script src="./main.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+        <img src="./healthful_haven.png" alt="logoimage" class="logoimage">
+        <h1 class="logo"> HEALTHFUL HAVEN </h1>
+    </div>
+    <input type="checkbox" id="nav_toggle" class="nav_toggle">
+    <nav>
+        <ul class="nav">
+            <li><a href="./home.html">Home</a>
+                <ul class="sub-menu">
+                    <li><a href="./contentpg.html">Nutritional Food</a></li>
+                    <li><a href="./additional.html">Community Health initiatives</a></li>
+                    <li><a href="./Fitness.html">Physcial Fitness and Well Being</a></li>
+                    <li><a href="./mindfulness.html">Healthy Mindset</a></li>
+                </ul>
+            </li>
+            <li><a href="./Gallery.html">Gallery</a></li>
+            <li><a href="./shop.html">Shop</a></li>
+            <li><a href="./feedback.html" class="active">Feedback</a></li>
+            <li><a href="./sitemap.html">Site Map</a></li>
+            <li><a href="./userProfile.html">User Profile</a></li>
+            <li><a href="./Team.html">Team</a></li>
+        </ul>
+    </nav>
+    <label for="nav_toggle" class="nav_toogle_label">
+        <span class="checkbox"></span>
+    </label>
+</header> <br><br><br><br>
+    <div class="background-container">
+        <div class="feedback-holder">
+            <h1>FEEDBACK</h1>
+
+            <!-- concept taken from https://formsubmit.co/?utm_source=formsubmit.co&utm_medium=site%20link&utm_campaign=submission%20page    https://formsubmit.co/ammaraflal6@gmail.com -->
+        <form class="full-form" method="POST" id="feedback-form" action=""> 
+            <div class="name-container">
+              <label for="name">Full Name:</label>
+              <input type="text" id="name" name="name" placeholder="Full Name" required>
+    
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+      
+            <div class="Q1-content">
+              <label for="rating" class="question2"> How satisfied were you with our website today? Choose from 0 to 10, where 0 is extremely dissatisfied and 10 is extremely satisfied</label><br>
+              <div class="Q1-form">
+                <input type="radio" id="r0" name="rating" value="0">
+                <label for="r0">0</label>
+      
+                <input type="radio" id="r1" name="rating" value="1">
+                <label for="r1">1</label>
+      
+                <input type="radio" id="r2" name="rating" value="2">
+                <label for="r2">2</label>
+      
+                <input type="radio" id="r3" name="rating" value="3">
+                <label for="r3">3</label>
+      
+                <input type="radio" id="r4" name="rating" value="4">
+                <label for="r4">4</label>
+      
+                <input type="radio" id="r5" name="rating" value="5">
+                <label for="r5">5</label>
+      
+                <input type="radio" id="r6" name="rating" value="6">
+                <label for="r6">6</label>
+      
+                <input type="radio" id="r7" name="rating" value="7">
+                <label for="r7">7</label>
+      
+                <input type="radio" id="r8" name="rating" value="8">
+                <label for="r8">8</label>
+      
+                <input type="radio" id="r9" name="rating" value="9">
+                <label for="r9">9</label>
+
+                <input type="radio" id="r10" name="rating" value="10">
+                <label for="r10">10</label>
+              </div>
+              <label for="feedback" class="question2">Please could you tell us your reasons for giving this rating?</label>
+              <textarea name="feedback" id="feedback" cols="30" rows="5"></textarea>
+              <label for="task-option">How did you complete this task today? (option)</label><br>
+              <select name="task-option" id="task-option">
+                <option value="">-Select an Option-</option>
+                <option value="phone">phone</option>
+                <option value="website">Website</option>
+                <option value="webchat">Webchat</option>
+                <option value="social-media">Social media</option>
+                <option value="email">Email</option>
+              </select><br><br>
+              <label for="preferred-task-option">Was this website informative and easy to navigate through?</label><br>
+              <div class="Q1-form">
+                <input type="radio" id="yes" name="option" value="Yes">
+                <label for="yes">Yes</label>
+      
+                <input type="radio" id="no" name="option" value="No">
+                <label for="no">No</label>
+              <br><br>
+            </div>
+            </div>
+            <div class="form-submit">
+              <button type="submit">Submit</button>
+              <button type="button">Preview</button>
+            </div>
+        </form>
+          <div id="previewModal" class="model">
+            <div class="model-content">
+               <!-- onclick concept https://stackoverflow.com/questions/47980232/javascript-changing-preview-image-by-clicking-a-thumbnail-image-with-addeventl*/ -->
+                <span class="close" onclick="closePreviewModal()"></span>
+                <div id="previewFeedbackContent"></div>
+            </div>
+            <div id="preview" class="display-preview"></div>
+        </div>
+        </div>
+      </div>
+    <script src="feedback.js"></script>
+    <footer>
+        <div class="footer-content">
+            <div class="first box">
+                <h2>About us</h2>
+                <div class="content">
+                    <p>Our website is dedicated to promoting healthy living and well-being for people of all ages. We believe that everyone deserves access to resources and support that empower them to lead healthy and fulfilling lives. Whether you're seeking information on nutrition, fitness, mental health, or preventive care, our platform offers a wealth of resources to help you make informed decisions and take positive steps toward better health. Join us on our mission to ensure healthy lives and promote well-being for all, because your health matters.</p>
+                </div>
+            </div>
+
+            <div class="second box">
+                <h2>Contact</h2>
+                <div class="content">
+                    <div>
+                        <span class="text">Informatics Institute of technology</span>
+                    </div>
+                    <div class="phone">
+                        <span class="text">+94 75 690 4366</span>
+                    </div>
+                    <div>
+                        <span class="text"><a href="mailto:healthfulhaven@gmail.com">healthfulhaven@gmail.com</a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="third box">
+                <h2>Contact us</h2>
+                <div class="content">
+                    <form action="#">
+                        <div>
+                            <div class="text">Email:</div>
+                            <input type="email" placeholder="Email">
+                        </div><br>
+                        <div class="msg">
+                            <div class="text">Message:</div>
+                            <textarea rows="3" placeholder="Enter your text"></textarea>
+                        </div>
+                        <div class="btn">
+                            <button type="submit" id="sumbit">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            </div>
+            <div class="under">
+                <div class="center">
+                    <span>Created By <a href="Student2Info.html" target="_blank">Ammar Aflal</a></span>
+                    <span>&#169; 2024 All rights reserved. | HEALTHFUL HAVEN </span>
+                </div>
+        </div>
+    </footer>
+</body>
+</html>
